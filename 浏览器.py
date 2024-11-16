@@ -1,4 +1,5 @@
 import webbrowser as web
+import os
 try:
     def s():
         print("必应（Bing）：1")
@@ -49,3 +50,4 @@ except KeyboardInterrupt:
     print("\n已退出，再见")
 finally:
     print("GoodBye")
+    os.system("pause")
